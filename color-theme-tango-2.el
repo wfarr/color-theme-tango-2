@@ -8,7 +8,8 @@
       (border-color . "#888a85")
       (cursor-color . "#d3d7cf")
       (foreground-color . "#eeeeec")
-      (mouse-color . "#eeeeec"))
+      (mouse-color . "#eeeeec")
+      (ns-set-background-alpha . 0.955))
 
      ((help-highlight-face . underline)
       (ibuffer-dired-buffer-face . font-lock-function-name-face)

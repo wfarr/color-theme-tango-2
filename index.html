@@ -1,1 +1,116 @@
-My GitHub Page
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.34 in css mode. -->
+<html>
+  <head>
+    <title>color-theme-tango-2.el</title>
+    <style type="text/css">
+    <!--
+      body {
+        color: #eeeeec;
+        background-color: #000000;
+      }
+      .builtin {
+        /* font-lock-builtin-face */
+        color: #729fcf;
+      }
+      .constant {
+        /* font-lock-constant-face */
+        color: #ad7fa8;
+      }
+      .doc {
+        /* font-lock-doc-face */
+        color: #888a85;
+      }
+      .function-name {
+        /* font-lock-function-name-face */
+        color: #729fcf;
+      }
+      .keyword {
+        /* font-lock-keyword-face */
+        color: #fcaf3e;
+      }
+      .string {
+        /* font-lock-string-face */
+        color: #73d216;
+      }
+
+      a {
+        color: inherit;
+        background-color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    -->
+    </style>
+  </head>
+  <body>
+    <pre>
+(<span class="keyword">defun</span> <span class="function-name">color-theme-tango-2</span> ()
+  <span class="doc">"A color theme based on Tango Palette."</span>
+  (interactive)
+  (color-theme-install
+   '(color-theme-tango-2
+     ((background-color . <span class="string">"#111111"</span>)
+      (background-mode . dark)
+      (border-color . <span class="string">"#888a85"</span>)
+      (cursor-color . <span class="string">"#d3d7cf"</span>)
+      (foreground-color . <span class="string">"#eeeeec"</span>)
+      (mouse-color . <span class="string">"#eeeeec"</span>)
+      (ns-set-background-alpha . 0.955))
+
+     ((help-highlight-face . underline)
+      (ibuffer-dired-buffer-face . font-lock-function-name-face)
+      (ibuffer-help-buffer-face . font-lock-comment-face)
+      (ibuffer-hidden-buffer-face . font-lock-warning-face)
+      (ibuffer-occur-match-face . font-lock-warning-face)
+      (ibuffer-read-only-buffer-face . font-lock-type-face)
+      (ibuffer-special-buffer-face . font-lock-keyword-face)
+      (ibuffer-title-face . font-lock-type-face))
+
+     (font-lock-builtin-face ((t (<span class="builtin">:foreground</span> <span class="string">"#729fcf"</span>))))
+     (font-lock-comment-face ((t (<span class="builtin">:foreground</span> <span class="string">"#888a85"</span>))))
+     (font-lock-constant-face ((t (<span class="builtin">:foreground</span> <span class="string">"#ad7fa8"</span>))))
+     (font-lock-doc-face ((t (<span class="builtin">:foreground</span> <span class="string">"#888a85"</span>))))
+     (font-lock-function-name-face ((t (<span class="builtin">:foreground</span> <span class="string">"#729fcf"</span>))))
+     (font-lock-keyword-face ((t (<span class="builtin">:foreground</span> <span class="string">"#fcaf3e"</span>))))
+     (font-lock-string-face ((t (<span class="builtin">:foreground</span> <span class="string">"#73d216"</span>))))
+     (font-lock-type-face ((t (<span class="builtin">:foreground</span> <span class="string">"#c17d11"</span>))))
+     (font-lock-variable-name-face ((t (<span class="builtin">:foreground</span> <span class="string">"#fce94f"</span>))))
+     (font-lock-warning-face ((t (<span class="builtin">:bold</span> t <span class="builtin">:foreground</span> <span class="string">"#cc0000"</span>))))
+
+     (border ((t (<span class="builtin">:background</span> <span class="string">"#888a85"</span>))))
+     (fringe ((t (<span class="builtin">:background</span> <span class="string">"grey10"</span>))))
+     (mode-line ((t (<span class="builtin">:foreground</span> <span class="string">"#eeeeec"</span> <span class="builtin">:background</span> <span class="string">"#333333"</span>))))
+     (mode-line-inactive ((t (<span class="builtin">:foreground</span> <span class="string">"#cccddd"</span> <span class="builtin">:background</span> <span class="string">"#222222"</span>))))
+     (region ((t (<span class="builtin">:background</span> <span class="string">"#555753"</span>))))
+
+     (org-date ((t (<span class="builtin">:foreground</span> <span class="string">"LightSteelBlue"</span> <span class="builtin">:underline</span> t))))
+     (org-hide ((t (<span class="builtin">:foreground</span> <span class="string">"#2e3436"</span>))))
+     (org-todo ((t (<span class="builtin">:inherit</span> font-lock-keyword-face <span class="builtin">:bold</span> t))))
+     (org-level-1 ((t (<span class="builtin">:inherit</span> font-lock-function-name-face))))
+     (org-level-2 ((t (<span class="builtin">:inherit</span> font-lock-variable-name-face))))
+     (org-level-3 ((t (<span class="builtin">:inherit</span> font-lock-keyword-face))))
+     (org-level-4 ((t (<span class="builtin">:inherit</span> font-lock-string-face))))
+     (org-level-5 ((t (<span class="builtin">:inherit</span> font-lock-constant-face))))
+
+     (comint-highlight-input ((t (<span class="builtin">:italic</span> t <span class="builtin">:bold</span> t))))
+     (comint-highlight-prompt ((t (<span class="builtin">:foreground</span> <span class="string">"#8ae234"</span>))))
+     (isearch ((t (<span class="builtin">:background</span> <span class="string">"#f57900"</span> <span class="builtin">:foreground</span> <span class="string">"#2e3436"</span>))))
+     (isearch-lazy-highlight-face ((t (<span class="builtin">:foreground</span> <span class="string">"#2e3436"</span> <span class="builtin">:background</span> <span class="string">"#e9b96e"</span>))))
+     (paren-face-match ((t (<span class="builtin">:inherit</span> show-paren-match-face))))
+     (paren-face-match-light ((t (<span class="builtin">:inherit</span> show-paren-match-face))))
+     (paren-face-mismatch ((t (<span class="builtin">:inherit</span> show-paren-mismatch-face))))
+     (persp-selected-face ((t (<span class="builtin">:foreground</span> <span class="string">"#729fcf"</span>))))
+     (show-paren-match-face ((t (<span class="builtin">:background</span> <span class="string">"#729fcf"</span> <span class="builtin">:foreground</span> <span class="string">"#eeeeec"</span>))))
+     (show-paren-mismatch-face ((t (<span class="builtin">:background</span> <span class="string">"#ad7fa8"</span> <span class="builtin">:foreground</span> <span class="string">"#2e3436"</span>))))
+     (minibuffer-prompt ((t (<span class="builtin">:foreground</span> <span class="string">"#729fcf"</span>))))
+     (info-xref ((t (<span class="builtin">:foreground</span> <span class="string">"#729fcf"</span>))))
+     (info-xref-visited ((t (<span class="builtin">:foreground</span> <span class="string">"#ad7fa8"</span>))))
+     )))
+
+(<span class="keyword">provide</span> '<span class="constant">color-theme-tango-2</span>)</pre>
+  </body>
+</html>

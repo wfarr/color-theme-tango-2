@@ -53,6 +53,7 @@
 
      (border ((t (:background "#888a85"))))
      (fringe ((t (:background "grey10"))))
+     (highlight ((t (:background "#999999"))))
      (mode-line ((t (:foreground "#eeeeec" :background "#333333"))))
      (mode-line-inactive ((t (:foreground "#cccddd" :background "#222222"))))
      (region ((t (:background "#555753"))))

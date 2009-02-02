@@ -26,10 +26,9 @@
      ((background-color . "#111111")
       (background-mode . dark)
       (border-color . "#888a85")
-      (cursor-color . "#d3d7cf")
       (foreground-color . "#eeeeec")
-      (mouse-color . "#eeeeec")
-      (ns-set-background-alpha . 0.955))
+      (cursor-color . "#666666")
+      (mouse-color . "#333333"))
 
      ((help-highlight-face . underline)
       (ibuffer-dired-buffer-face . font-lock-function-name-face)

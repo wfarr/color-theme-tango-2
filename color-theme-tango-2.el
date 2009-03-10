@@ -1,4 +1,4 @@
-;;;; rcirc-notify.el
+;;;; color-theme-tango-2.el
 ;; -*- mode: elisp -*-
 ;; Copyright (c) 2008-2009 Will Farrington <wcfarrington@gmail.com>
 ;;
@@ -23,11 +23,11 @@
   (interactive)
   (color-theme-install
    '(color-theme-tango-2
-     ((background-color . "#111111")
+     ((background-color . "#000000")
       (background-mode . dark)
       (border-color . "#888a85")
       (foreground-color . "#eeeeec")
-      (cursor-color . "#666666")
+      (cursor-color . "#888888")
       (mouse-color . "#333333"))
 
      ((help-highlight-face . underline)
@@ -51,11 +51,14 @@
      (font-lock-warning-face ((t (:bold t :foreground "#cc0000"))))
 
      (border ((t (:background "#888a85"))))
-     (fringe ((t (:background "grey10"))))
-     (highlight ((t (:background "#999999"))))
-     (mode-line ((t (:foreground "#eeeeec" :background "#333333"))))
-     (mode-line-inactive ((t (:foreground "#cccddd" :background "#222222"))))
+     (fringe ((t (:background "#111111"))))
+     (highlight ((t (:background "#444444"))))
+     (mode-line ((t (:foreground "#cccddd" :background "#111111"))))
+     (mode-line-inactive ((t (:foreground "#cccddd" :background "#111111"))))
      (region ((t (:background "#555753"))))
+
+     (flyspell-duplicate ((t (:foreground "#fcaf3e"))))
+     (flyspell-incorrect ((t (:foreground "#cc0000"))))
 
      (org-date ((t (:foreground "LightSteelBlue" :underline t))))
      (org-hide ((t (:foreground "#2e3436"))))

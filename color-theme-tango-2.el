@@ -23,13 +23,12 @@
   (interactive)
   (color-theme-install
    '(color-theme-tango-2
-     ((background-color . "#000000")
+     ((background-color . "#121212")
       (background-mode . dark)
       (border-color . "#888a85")
       (foreground-color . "#eeeeec")
       (cursor-color . "#888888")
       (mouse-color . "#333333"))
-
      ((help-highlight-face . underline)
       (ibuffer-dired-buffer-face . font-lock-function-name-face)
       (ibuffer-help-buffer-face . font-lock-comment-face)
@@ -38,7 +37,6 @@
       (ibuffer-read-only-buffer-face . font-lock-type-face)
       (ibuffer-special-buffer-face . font-lock-keyword-face)
       (ibuffer-title-face . font-lock-type-face))
-
      (font-lock-builtin-face ((t (:foreground "#729fcf"))))
      (font-lock-comment-face ((t (:foreground "#888a85"))))
      (font-lock-constant-face ((t (:foreground "#ad7fa8"))))
@@ -53,7 +51,7 @@
      (border ((t (:background "#888a85"))))
      (fringe ((t (:background "#111111"))))
      (highlight ((t (:background "#444444"))))
-     (mode-line ((t (:foreground "#cccddd" :background "#111111"))))
+     (mode-line ((t (:foreground "#eeeeec" :background "#2e3436"))))
      (mode-line-inactive ((t (:foreground "#cccddd" :background "#111111"))))
      (region ((t (:background "#555753"))))
 
